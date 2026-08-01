@@ -1,0 +1,6 @@
+Deploy steps for cPanel:
+1. Run: npm install
+2. Run: npm run build
+3. Upload the contents of the dist/ folder to your public_html folder.
+4. If your backend API is on a different domain, set VITE_API_URL in the build environment to the production API URL.
+5. If your cPanel uses Apache and you need SPA routing, keep public/.htaccess in place.
