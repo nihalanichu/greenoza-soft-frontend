@@ -47,3 +47,4 @@ export async function loginRequest(email: string, password: string) {
 }
 
 export default api;
+
